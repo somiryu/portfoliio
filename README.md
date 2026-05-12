@@ -7,6 +7,7 @@ The portfolio uses an **Industrial-Tech Aesthetic** combined with subtle gamific
 
 ## 🛠 Tech Stack
 - **Framework:** [SvelteKit](https://kit.svelte.dev/) (Svelte 5)
+- **Backend Mastery:** Ruby on Rails, Go, Python (Django)
 - **Styling:** Vanilla CSS (Custom Design System)
 - **Icons:** [Lucide-svelte](https://lucide.dev/)
 - **Workflow:** The Antigravity Method (AI-Assisted Architecture)

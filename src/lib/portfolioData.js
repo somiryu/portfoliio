@@ -17,6 +17,7 @@ export const skills = [
     { name: "Go (Golang)", level: 85, category: "Backend", description: "High-concurrency microservices for gamification engines." },
     { name: "PostgreSQL / MongoDB", level: 85, category: "Database", description: "Relational and NoSQL expertise for complex data structures." },
     { name: "AWS / DevOps", level: 80, category: "Infrastructure", description: "Terraform, EC2, S3, and Digital Ocean deployments." },
+    { name: "Python / Django", level: 40, category: "Backend", description: "Basic backend development and scripting experience." },
     { name: "Gamification Design", level: 100, category: "Industry", description: "4x Gamicon Award Winner. Expert in engagement mechanics." },
     { name: "Project Management", level: 90, category: "Industry", description: "Led distributed teams and organized international events like Ludotopia." }
 ];
