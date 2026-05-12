@@ -5,8 +5,8 @@ export const profile = {
     avatar: "/avatar.png", // User can replace this later
     socials: {
         github: "https://github.com/somiryu",
-        linkedin: "#", // Placeholder
-        email: "mailto:hello@example.com"
+        linkedin: "https://www.linkedin.com/in/javier-velasquez-game/", // Placeholder
+        email: "mailto:somiryu@gmail.com"
     }
 };
 
