@@ -1,6 +1,7 @@
 <script>
     import { Header, Hero, SkillSection, ExperienceSection, ProjectSection, WorkflowSection } from '$lib/components';
     import { Mail, Terminal, Users } from 'lucide-svelte';
+    import { profile } from '$lib/portfolioData';
 </script>
 
 <svelte:head>
@@ -23,13 +24,13 @@
             <p>Looking for a Full Stack Developer who understands the tabletop lifecycle? Let's connect.</p>
             
             <div class="social-links">
-                <a href="mailto:hello@example.com" class="social-btn glass">
+                <a href={profile.socials.email} class="social-btn glass">
                     <Mail size={20} /> Email
                 </a>
-                <a href="https://github.com/somiryu" target="_blank" class="social-btn glass">
+                <a href={profile.socials.github} target="_blank" class="social-btn glass">
                     <Terminal size={20} /> Github
                 </a>
-                <a href="#" class="social-btn glass">
+                <a href={profile.socials.linkedin} target="_blank" class="social-btn glass">
                     <Users size={20} /> LinkedIn
                 </a>
             </div>
