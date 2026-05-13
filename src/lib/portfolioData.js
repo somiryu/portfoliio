@@ -6,7 +6,8 @@ export const profile = {
     socials: {
         github: "https://github.com/somiryu",
         linkedin: "https://www.linkedin.com/in/javier-velasquez-game/", // Placeholder
-        email: "mailto:somiryu@gmail.com"
+        email: "mailto:somiryu@gmail.com",
+        behance: "https://www.behance.net/free2play"
     }
 };
 
@@ -76,8 +77,8 @@ export const projects = [
         highlights: [
             "Successfully implemented 100% of game logic in a legacy framework",
             "Reached Beta phase with extensive community approval and playtesting",
-            "Deep integration with asynchronous state synchronization and player notifications",
-            "Demonstrated ability to adapt to rigid, industry-specific proprietary APIs"
+            "Demonstrated ability to adapt to rigid, industry-specific proprietary APIs",
+            "Currently on alpha for lack of maintainance. Will resume working on th eproject on the future.",
         ]
     }
 ];

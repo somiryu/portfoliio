@@ -1,5 +1,5 @@
 <script>
-    import { projects } from '$lib/portfolioData';
+    import { projects, profile } from '$lib/portfolioData';
     import { ExternalLink, Dices } from 'lucide-svelte';
 </script>
 
@@ -49,6 +49,12 @@
                 </div>
             </div>
         {/each}
+    </div>
+    <div class="section-footer">
+        <p>Seeking more architectural deep-dives?</p>
+        <a href={profile.socials.behance} target="_blank" class="glow-button">
+            Check other projects <ExternalLink size={18} />
+        </a>
     </div>
 </section>
 
@@ -160,6 +166,24 @@
 
     .link-btn:hover {
         gap: 12px;
+    }
+
+    .section-footer {
+        margin-top: 80px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 60px;
+        background: rgba(0, 245, 255, 0.02);
+        border-radius: 20px;
+        border: 1px dashed var(--glass-border);
+    }
+
+    .section-footer p {
+        color: var(--text-muted);
+        font-size: 1.1rem;
     }
 
     @media (max-width: 900px) {
