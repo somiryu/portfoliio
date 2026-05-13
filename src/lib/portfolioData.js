@@ -42,7 +42,7 @@ export const projects = [
         title: "Gengine",
         subtitle: "Gamification Engine Microservices",
         description: "A high-concurrency engine for real-time engagement mechanics. Designed to scale across multiple applications with a modular administrative interface.",
-        images: [],
+        images: ["/aws gengine.png"],
         stack: ["Go", "MongoDB", "Docker", "SvelteKit", "Terraform", "AWS"],
         link: "https://github.com/somiryu",
         highlights: [
@@ -56,7 +56,7 @@ export const projects = [
         title: "Newsletter & Delivery",
         subtitle: "High-Volume Communication System",
         description: "Custom mailing solution for large-scale reach. Managed full-stack deployment and reliability for consistent delivery.",
-        images: [],
+        images: ["/hashavua.png"],
         stack: ["Ruby on Rails", "Svelte", "Digital Ocean", "SendGrid", "Nginx"],
         link: "https://hashavuabogota.com/",
         highlights: [
