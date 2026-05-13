@@ -54,7 +54,7 @@ export const projects = [
     },
     {
         id: "newsletter",
-        title: "Newsletter & Delivery",
+        title: "Hashavua Newsletter and Portal",
         subtitle: "High-Volume Communication System",
         description: "Custom mailing solution for large-scale reach. Managed full-stack deployment and reliability for consistent delivery.",
         images: ["/hashavua.png"],
@@ -63,6 +63,7 @@ export const projects = [
         highlights: [
             "Managed Nginx + Passenger deployment",
             "High-reliability SendGrid integration",
+            "Web security was a keyfactor because of hacker attempts to vulnerate the website",
             "Custom-built for specific community engagement needs"
         ]
     },
