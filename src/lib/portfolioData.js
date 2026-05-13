@@ -70,7 +70,7 @@ export const projects = [
         title: "Xanadú: BGA Adaptation",
         subtitle: "Digital Board Game Engineering",
         description: "An adaptation of the award-winning Xanadú board game for the Board Game Arena platform. Challenged with implementing complex game state logic within a highly restrictive PHP/JS API ecosystem.",
-        images: ["/Xanadu approvals.png"],
+        images: ["/Xanadu approvals.png", "/BGA Studio.png"],
         stack: ["PHP", "JavaScript", "BGA Framework", "SQL"],
         link: "https://boardgamearena.com/gamepanel?game=xanadu",
         highlights: [
