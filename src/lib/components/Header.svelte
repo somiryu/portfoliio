@@ -1,12 +1,13 @@
 <script>
     import { Dices } from 'lucide-svelte';
+    import { profile } from '$lib/portfolioData';
 </script>
 
 <header class="glass">
     <div class="container">
         <a href="/" class="logo">
             <Dices size={24} color="var(--primary)" />
-            <span>Somiryu</span>
+            <span>{profile.name}</span>
         </a>
         
         <nav>

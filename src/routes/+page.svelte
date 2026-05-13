@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-    <title>Somiryu | Senior Full Stack & Tabletop Specialist</title>
-    <meta name="description" content="Portfolio of Somiryu, a Senior Full Stack Developer specializing in tabletop industry ecosystems, gamification, and high-performance web applications.">
+    <title>{profile.name} | Senior Full Stack & Tabletop Specialist</title>
+    <meta name="description" content="Portfolio of {profile.name}, a Senior Full Stack Developer specializing in tabletop industry ecosystems, gamification, and high-performance web applications.">
 </svelte:head>
 
 <Header />
@@ -41,7 +41,7 @@
 
 <footer>
     <div class="container">
-        <p>© 2026 Somiryu. Built with SvelteKit & The Antigravity Method.</p>
+        <p>© 2026 {profile.name}. Built with SvelteKit & The Antigravity Method.</p>
     </div>
 </footer>
 

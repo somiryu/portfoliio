@@ -1,5 +1,5 @@
 export const profile = {
-    name: "Somiryu",
+    name: "Javier Velasquez",
     title: "Senior Full Stack Developer & Tabletop Industry Specialist",
     summary: "Full Stack Engineer with 15 years of immersion in the tabletop industry. Expert in Svelte, Ruby on Rails, and Go, with a proven track record of building complex ecosystems for game publishing and gamification. 4-time Gamicon Award winner for excellence in Gamification and Learning.",
     avatar: "/avatar.png", // User can replace this later
