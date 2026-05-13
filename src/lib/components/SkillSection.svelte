@@ -1,5 +1,6 @@
 <script>
     import { skills } from '$lib/portfolioData';
+    import MeepleIcon from './MeepleIcon.svelte';
 </script>
 
 <section id="skills" class="reveal">
@@ -12,7 +13,10 @@
         {#each skills as skill}
             <div class="skill-card glass">
                 <div class="skill-info">
-                    <span class="name">{skill.name}</span>
+                    <div class="name-container">
+                        <MeepleIcon size={18} color="var(--primary)" />
+                        <span class="name">{skill.name}</span>
+                    </div>
                     <span class="level">{skill.level}%</span>
                 </div>
                 <div class="progress-bg">
@@ -59,6 +63,12 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 12px;
+    }
+
+    .name-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
 
     .name {

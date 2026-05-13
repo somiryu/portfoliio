@@ -1,5 +1,5 @@
 <script>
-    import { Header, Hero, SkillSection, ExperienceSection, ProjectSection, WorkflowSection } from '$lib/components';
+    import { Header, Hero, SkillSection, ExperienceSection, ProjectSection, GallerySection, WorkflowSection } from '$lib/components';
     import { Mail, Terminal, Users } from 'lucide-svelte';
     import { profile } from '$lib/portfolioData';
 </script>
@@ -16,6 +16,7 @@
     <SkillSection />
     <ExperienceSection />
     <ProjectSection />
+    <GallerySection />
     <WorkflowSection />
 
     <section id="contact" class="reveal">

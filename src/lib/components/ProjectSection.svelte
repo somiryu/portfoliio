@@ -1,6 +1,6 @@
 <script>
     import { projects } from '$lib/portfolioData';
-    import { ExternalLink, Box } from 'lucide-svelte';
+    import { ExternalLink, Dices } from 'lucide-svelte';
 </script>
 
 <section id="projects" class="reveal">
@@ -14,7 +14,7 @@
             <div class="project-container glass">
                 <div class="project-visual">
                     <div class="floating-icon">
-                        <Box size={48} color="var(--primary)" />
+                        <Dices size={48} color="var(--primary)" />
                     </div>
                 </div>
                 

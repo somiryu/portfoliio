@@ -1,8 +1,8 @@
 <script>
     import { workflow } from '$lib/portfolioData';
-    import { Zap, ShieldCheck, Microscope } from 'lucide-svelte';
+    import { Puzzle, ShieldCheck, Microscope } from 'lucide-svelte';
     
-    const icons = [Microscope, Zap, ShieldCheck];
+    const icons = [Puzzle, ShieldCheck, Microscope];
 </script>
 
 <section id="workflow" class="reveal">
@@ -13,10 +13,11 @@
 
     <div class="workflow-grid">
         {#each workflow.steps as step, i}
+            {@const Icon = icons[i]}
             <div class="step-card glass">
                 <div class="step-num">{i + 1}</div>
                 <div class="icon-box">
-                    <svelte:component this={icons[i]} size={32} color="var(--primary)" />
+                    <Icon size={32} color="var(--primary)" />
                 </div>
                 <h3>{step.title}</h3>
                 <p>{step.description}</p>

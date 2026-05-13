@@ -28,6 +28,7 @@ export const projects = [
         title: "BG-Forge",
         subtitle: "Board Game Publishing Ecosystem",
         description: "A comprehensive web application solving critical bottlenecks in the tabletop publishing workflow. Built as a solo project to handle complex component tracking and real-time state.",
+        images: ["/Studio Screenshot.png", "/Admin Screenshot.png", "/Studio Scrrenshot 2.png"],
         stack: ["Ruby on Rails", "Svelte", "PostgreSQL", "Netlify"],
         link: "https://bg-forge.netlify.app/",
         highlights: [
@@ -41,6 +42,7 @@ export const projects = [
         title: "Gengine",
         subtitle: "Gamification Engine Microservices",
         description: "A high-concurrency engine for real-time engagement mechanics. Designed to scale across multiple applications with a modular administrative interface.",
+        images: [],
         stack: ["Go", "MongoDB", "Docker", "SvelteKit", "Terraform", "AWS"],
         link: "https://github.com/somiryu",
         highlights: [
@@ -54,12 +56,28 @@ export const projects = [
         title: "Newsletter & Delivery",
         subtitle: "High-Volume Communication System",
         description: "Custom mailing solution for large-scale reach. Managed full-stack deployment and reliability for consistent delivery.",
+        images: [],
         stack: ["Ruby on Rails", "Svelte", "Digital Ocean", "SendGrid", "Nginx"],
         link: "https://hashavuabogota.com/",
         highlights: [
             "Managed Nginx + Passenger deployment",
             "High-reliability SendGrid integration",
             "Custom-built for specific community engagement needs"
+        ]
+    },
+    {
+        id: "xanadu-bga",
+        title: "Xanadú: BGA Adaptation",
+        subtitle: "Digital Board Game Engineering",
+        description: "An adaptation of the award-winning Xanadú board game for the Board Game Arena platform. Challenged with implementing complex game state logic within a highly restrictive PHP/JS API ecosystem.",
+        images: ["/Xanadu approvals.png"],
+        stack: ["PHP", "JavaScript", "BGA Framework", "SQL"],
+        link: "https://boardgamearena.com/gamepanel?game=xanadu",
+        highlights: [
+            "Successfully implemented 100% of game logic in a legacy framework",
+            "Reached Beta phase with extensive community approval and playtesting",
+            "Deep integration with asynchronous state synchronization and player notifications",
+            "Demonstrated ability to adapt to rigid, industry-specific proprietary APIs"
         ]
     }
 ];
@@ -94,6 +112,6 @@ export const workflow = {
     steps: [
         { title: "Architecture Mode", description: "Strategic discussion and design of features before a single line of code is written." },
         { title: "Phased Implementation", description: "Iterative, controlled coding phases to ensure stability and precision." },
-        { title: "Edge-Case Review", description: "Human-led review to eliminate technical debt and ensure security." }
+        { title: "Edge-Case Review", description: "Human-led, AI-Assisted review to eliminate technical debt and ensure security." }
     ]
 };

@@ -1,18 +1,19 @@
 <script>
-    import { Gamepad2 } from 'lucide-svelte';
+    import { Dices } from 'lucide-svelte';
 </script>
 
 <header class="glass">
     <div class="container">
         <a href="/" class="logo">
-            <Gamepad2 size={24} color="var(--primary)" />
+            <Dices size={24} color="var(--primary)" />
             <span>Somiryu</span>
         </a>
         
         <nav>
             <a href="#skills">Skills</a>
             <a href="#experience">Journey</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Ecosystems</a>
+            <a href="#gallery">Gallery</a>
             <a href="#workflow">Workflow</a>
             <a href="#contact" class="contact-link">Contact</a>
         </nav>
